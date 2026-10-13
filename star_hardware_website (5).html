@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="STAR HARDWARE, Hurlung, Panchayat Bhawan ke paas, Bokaro. Wiring, plumbing aur fitting ka samaan.">
+  <title>STAR HARDWARE | Hurlung, Bokaro</title>
+  <style>
+    :root { --blue:#0877d1; --navy:#08345b; --yellow:#ffd447; --light:#eef8ff; --ink:#163047; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; font-family:Arial, Helvetica, sans-serif; color:var(--ink); background:#f5fbff; line-height:1.6; }
+    header { background:linear-gradient(135deg,#0877d1,#07539b); color:white; padding:18px 5%; }
+    .nav { max-width:1100px; margin:auto; display:flex; align-items:center; justify-content:space-between; gap:18px; flex-wrap:wrap; }
+    .brand { font-size:clamp(22px,4vw,32px); font-weight:900; letter-spacing:1px; }
+    .brand span { color:var(--yellow); }
+    nav { display:flex; gap:18px; flex-wrap:wrap; }
+    nav a { color:white; text-decoration:none; font-weight:bold; }
+    nav a:hover { color:var(--yellow); }
+    .hero { background:linear-gradient(120deg,#dff3ff,#f8fcff); padding:64px 5% 58px; }
+    .hero-inner { max-width:1100px; margin:auto; display:grid; grid-template-columns:1.25fr .75fr; align-items:center; gap:30px; }
+    .eyebrow { display:inline-block; padding:5px 12px; border-radius:99px; background:#fff1b7; color:#684e00; font-weight:bold; font-size:14px; }
+    h1 { font-size:clamp(36px,6vw,60px); line-height:1.08; margin:14px 0; color:var(--navy); }
+    h1 span { color:var(--blue); }
+    .hero p { font-size:18px; max-width:620px; }
+    .actions { display:flex; flex-wrap:wrap; gap:12px; margin-top:24px; }
+    .btn { display:inline-block; padding:12px 19px; border-radius:10px; text-decoration:none; font-weight:bold; border:2px solid var(--blue); background:var(--blue); color:white; }
+    .btn.secondary { background:white; color:var(--blue); }
+    .shop-art { min-height:270px; border-radius:24px; background:linear-gradient(145deg,#0877d1,#053a70); color:white; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:25px; box-shadow:0 15px 35px #08345b25; }
+    .shop-art .tools { font-size:68px; letter-spacing:4px; }
+    .shop-art strong { font-size:25px; margin-top:8px; }
+    .shop-art small { color:#d8efff; }
+    section { padding:54px 5%; }
+    .wrap { max-width:1100px; margin:auto; }
+    .section-title { text-align:center; margin:0 0 10px; color:var(--navy); font-size:clamp(27px,4vw,38px); }
+    .section-sub { text-align:center; margin:0 auto 30px; max-width:650px; color:#587086; }
+    .cards { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
+    .card { background:white; border:1px solid #dcecf7; border-radius:17px; padding:25px 20px; box-shadow:0 8px 24px #0a47720a; }
+    .card .emoji { font-size:42px; }
+    .card h3 { margin:8px 0 5px; color:var(--navy); }
+    .card p { margin:0; color:#587086; }
+    .why { background:#e6f5ff; }
+    .why-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
+    .why-item { background:white; border-radius:14px; padding:20px; }
+    .why-item strong { display:block; color:var(--navy); font-size:18px; }
+    .contact-grid { display:grid; grid-template-columns:1fr 1fr; gap:22px; }
+    .contact-card { background:white; border:1px solid #dcecf7; border-radius:17px; padding:24px; }
+    .contact-card h3 { margin-top:0; color:var(--navy); }
+    .address { font-size:18px; }
+    .map-link { margin-top:12px; }
+    footer { background:#062b4b; color:#d9ecfb; text-align:center; padding:22px 5%; }
+    footer strong { color:var(--yellow); }
+    @media (max-width:760px) {
+      .hero-inner, .contact-grid { grid-template-columns:1fr; }
+      .hero { padding-top:42px; }
+      .cards, .why-grid { grid-template-columns:1fr; }
+      .shop-art { min-height:210px; }
+      nav { gap:12px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <div class="brand">⭐ STAR <span>HARDWARE</span></div>
+      <nav aria-label="मुख्य मेन्यू">
+        <a href="#home">होम</a>
+        <a href="#products">हमारा सामान</a>
+        <a href="#about">हमारे बारे में</a>
+        <a href="#contact">संपर्क</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-inner">
+        <div>
+          <span class="eyebrow">आपकी अपनी हार्डवेयर दुकान</span>
+          <h1>स्वागत है <span>STAR HARDWARE</span> में!</h1>
+          <p>Wiring, plumbing और fitting के सामान के लिए हमारी दुकान पर आइए। हमें आपकी जरूरत के सामान में मदद करके खुशी होगी।</p>
+          <div class="actions">
+            <a class="btn" href="#products">हमारा सामान देखें</a>
+            <a class="btn secondary" href="#contact">दुकान का पता</a>
+          </div>
+        </div>
+        <div class="shop-art" aria-label="हार्डवेयर दुकान का चित्र">
+          <div class="tools">🔌 🚰 🔧</div>
+          <strong>STAR HARDWARE</strong>
+          <small>Wiring • Plumbing • Fitting</small>
+        </div>
+      </div>
+    </section>
+
+    <section id="products">
+      <div class="wrap">
+        <h2 class="section-title">हमारे यहाँ क्या मिलता है?</h2>
+        <p class="section-sub">घर और निर्माण से जुड़े कामों के लिए हार्डवेयर का सामान पूछें। उपलब्धता के लिए दुकान पर संपर्क करें।</p>
+        <div class="cards">
+          <article class="card">
+            <div class="emoji">🔌</div>
+            <h3>Electrical / Wiring</h3>
+            <p>वायरिंग और बिजली से जुड़े सामान के लिए हमसे पूछें।</p>
+          </article>
+          <article class="card">
+            <div class="emoji">🚰</div>
+            <h3>Plumbing</h3>
+            <p>प्लंबिंग के काम में इस्तेमाल होने वाले सामान की जानकारी लें।</p>
+          </article>
+          <article class="card">
+            <div class="emoji">🛠️</div>
+            <h3>Fitting & Hardware</h3>
+            <p>फिटिंग और हार्डवेयर की जरूरत के सामान के बारे में पूछें।</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="why" id="about">
+      <div class="wrap">
+        <h2 class="section-title">STAR HARDWARE के बारे में</h2>
+        <p class="section-sub">आपकी स्थानीय हार्डवेयर दुकान — Hurlung, Bokaro में।</p>
+        <div class="why-grid">
+          <div class="why-item"><strong>📍 आसानी से खोजें</strong><span>Hurlung में Panchayat Bhawan के पास।</span></div>
+          <div class="why-item"><strong>🧰 कई तरह का सामान</strong><span>Wiring, plumbing और fitting की जरूरतों के लिए।</span></div>
+          <div class="why-item"><strong>🤝 सीधे दुकान पर पूछें</strong><span>सामान की उपलब्धता और कीमत दुकान पर पता करें।</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrap">
+        <h2 class="section-title">हमसे मिलें</h2>
+        <p class="section-sub">दुकान पर आने के लिए नीचे दिया गया पता इस्तेमाल करें।</p>
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h3>🏪 STAR HARDWARE</h3>
+            <p class="address"><strong>पता:</strong><br>Hurlung, Panchayat Bhawan के पास,<br>Bokaro, Jharkhand, India</p>
+            <p><strong>सामान:</strong> Wiring, Plumbing और Fitting</p>
+          </div>
+          <div class="contact-card">
+            <h3>📞 संपर्क करें</h3>
+            <p>दुकान से संपर्क करने के लिए नीचे दिए गए नंबरों पर कॉल या WhatsApp करें:</p>
+            <p><strong>मोबाइल 1:</strong> <a href="tel:+917549130189">75491 30189</a></p>
+            <p><strong>मोबाइल 2:</strong> <a href="tel:+919661612971">96616 12971</a></p>
+            <div class="actions">
+              <a class="btn" href="https://wa.me/917549130189" target="_blank" rel="noopener noreferrer">WhatsApp 1</a>
+              <a class="btn secondary" href="https://wa.me/919661612971" target="_blank" rel="noopener noreferrer">WhatsApp 2</a>
+            </div>
+            <p style="font-size:13px;color:#587086;margin-top:16px">WhatsApp लिंक खोलने पर संबंधित नंबर की चैट खुलेगी, यदि उस नंबर पर WhatsApp उपलब्ध है।</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <strong>STAR HARDWARE</strong><br>
+    Hurlung, Panchayat Bhawan के पास, Bokaro, Jharkhand<br>
+    © <span id="year"></span> STAR HARDWARE. All rights reserved.
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
