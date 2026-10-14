@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1050" viewBox="0 0 1800 1050" role="img" aria-labelledby="title desc">
+<title id="title">STAR HARDWARE business card</title>
+<desc id="desc">Hardware supplies, wiring, plumbing, fitting, motor and fan repair. Hurlung near Panchayat Bhawan, Bokaro, Jharkhand. Phone 75491 30189 and 96616 11297.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#062f59"/><stop offset="1" stop-color="#0877d1"/></linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffe889"/><stop offset="1" stop-color="#ffbf24"/></linearGradient>
+  <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#001b33" flood-opacity=".28"/></filter>
+</defs>
+<rect width="1800" height="1050" rx="52" fill="#eaf5ff"/>
+<rect x="36" y="36" width="1728" height="978" rx="40" fill="url(#bg)" filter="url(#shadow)"/>
+<rect x="56" y="56" width="1688" height="938" rx="30" fill="none" stroke="url(#gold)" stroke-width="5"/>
+<path d="M80 230 H1720" stroke="#ffffff" stroke-opacity=".22" stroke-width="3"/>
+<g transform="translate(130 105)">
+  <path d="M0 75 L60 10 L120 75 V150 H0 Z" fill="url(#gold)"/>
+  <path d="M26 78 H94 V150 H26 Z" fill="#07345f"/>
+  <path d="M44 150 V100 H76 V150" fill="url(#gold)"/>
+  <path d="M8 72 L60 18 L112 72" fill="none" stroke="#fff5c8" stroke-width="8" stroke-linejoin="round"/>
+</g>
+<text x="300" y="160" font-family="Arial, Noto Sans Devanagari, sans-serif" font-size="38" font-weight="700" letter-spacing="7" fill="#d8edff">YOUR TRUSTED HARDWARE STORE</text>
+<text x="300" y="222" font-family="Arial, sans-serif" font-size="82" font-weight="900" letter-spacing="3" fill="#ffffff">STAR HARDWARE</text>
+<text x="900" y="325" text-anchor="middle" font-family="Arial, Noto Sans Devanagari, sans-serif" font-size="42" font-weight="800" fill="#ffdf65">छोटे-बड़े सभी प्रकार के हार्डवेयर सामान उपलब्ध</text>
+<g font-family="Arial, sans-serif" font-size="35" font-weight="800" text-anchor="middle">
+  <rect x="130" y="375" width="460" height="82" rx="18" fill="#ffffff"/><text x="360" y="428" fill="#07539b">WIRING</text>
+  <rect x="670" y="375" width="460" height="82" rx="18" fill="#ffffff"/><text x="900" y="428" fill="#07539b">PLUMBING</text>
+  <rect x="1210" y="375" width="460" height="82" rx="18" fill="#ffffff"/><text x="1440" y="428" fill="#07539b">FITTING</text>
+</g>
+<rect x="130" y="500" width="1540" height="150" rx="24" fill="#fff4c7"/>
+<text x="900" y="558" text-anchor="middle" font-family="Arial, Noto Sans Devanagari, sans-serif" font-size="36" font-weight="800" fill="#07345f">मोटर और पंखे की रिपेयरिंग भी की जाती है</text>
+<text x="900" y="612" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#07539b">MOTOR &amp; FAN REPAIRING AVAILABLE</text>
+<g font-family="Arial, Noto Sans Devanagari, sans-serif" fill="#ffffff">
+  <text x="140" y="730" font-size="34" font-weight="800">📍 दुकान का पता</text>
+  <text x="140" y="782" font-size="31">Hurlung, Panchayat Bhawan के पास, Bokaro, Jharkhand</text>
+  <text x="140" y="870" font-size="34" font-weight="800" fill="#ffdf65">📞 संपर्क करें</text>
+  <text x="140" y="928" font-family="Arial, sans-serif" font-size="43" font-weight="900">75491 30189  |  96616 11297</text>
+</g>
+<circle cx="1580" cy="830" r="78" fill="url(#gold)"/>
+<path d="M1580 778 C1554 800 1544 820 1553 844 C1561 867 1580 880 1580 880 C1580 880 1599 867 1607 844 C1616 820 1606 800 1580 778 Z" fill="#07345f"/>
+<circle cx="1580" cy="829" r="20" fill="#ffdf65"/>
+</svg>
