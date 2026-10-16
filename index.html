@@ -82,6 +82,19 @@
     .dolphin-tag{display:inline-block;background:#073b74;color:#fff;padding:6px 12px;border-radius:999px;font-size:12px;font-weight:900;letter-spacing:1px;margin-bottom:12px}
     @media(max-width:650px){.dolphin-panel{grid-template-columns:1fr;padding:16px}}
 
+    .cpl-showcase{background:linear-gradient(135deg,#061b3b 0%,#123c76 52%,#081a34 100%);color:#fff}
+    .cpl-showcase .section-title{color:#fff}
+    .cpl-showcase .section-sub{color:#d9e7ff}
+    .cpl-hero-panel{max-width:1100px;margin:auto;padding:clamp(18px,3vw,34px);border:1px solid rgba(255,210,31,.75);border-radius:26px;background:linear-gradient(145deg,#fff 0%,#eef4ff 55%,#fff5c9 100%);box-shadow:0 24px 60px rgba(0,0,0,.28)}
+    .cpl-photo-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+    .cpl-photo-grid a{display:flex;flex-direction:column;justify-content:space-between;min-width:0;padding:14px;background:linear-gradient(150deg,#fff,#f4f7fc);border:1px solid #d9e3f2;border-radius:18px;text-decoration:none;box-shadow:0 10px 26px rgba(7,27,59,.12);transition:transform .2s,box-shadow .2s}
+    .cpl-photo-grid a:hover{transform:translateY(-5px);box-shadow:0 18px 32px rgba(7,27,59,.2)}
+    .cpl-photo-grid img{width:100%;height:210px;object-fit:contain;background:#fff;border-radius:12px}
+    .cpl-photo-grid span{display:block;text-align:center;font-size:13px;font-weight:900;letter-spacing:.5px;color:#0b3470;padding:12px 3px 2px}
+    .cpl-copy{text-align:center;margin:28px auto 0;max-width:750px;color:#173152}
+    .cpl-copy h3{font-size:clamp(26px,4vw,40px);color:#082d63;margin:8px 0}
+    .cpl-copy p{font-size:16px;line-height:1.8;color:#405675}
+    @media(max-width:650px){.cpl-photo-grid{grid-template-columns:1fr}.cpl-photo-grid img{height:240px}.cpl-photo-grid a{max-width:420px;width:100%;margin:auto}}
     @media(max-width:850px){.nav-wrap{align-items:flex-start;flex-direction:column;gap:8px}nav{justify-content:flex-start}.hero-inner{grid-template-columns:1fr;gap:28px}.visual-card{max-width:560px;margin:auto;transform:none}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.why-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
     @media(max-width:560px){.nav-wrap{padding:12px 16px}nav{gap:3px}nav a{font-size:12px;padding:7px 8px}.hero{padding:42px 17px 38px}.hero-copy{font-size:16px}.people{padding:0 14px}.person{padding:18px 8px}.person h2{font-size:18px}section.content-section{padding:48px 17px}.cards,.why-grid,.contact-grid{grid-template-columns:1fr}.contact-card{padding:22px}.visual-caption{align-items:flex-start;flex-direction:column;gap:2px}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
@@ -193,18 +206,31 @@
       </div>
     </section>
 
-    <section class="content-section dolphin-section" id="cpl-switches">
+    <section class="content-section cpl-showcase" id="cpl-switches">
       <div class="wrap">
-        <p class="section-kicker">इलेक्ट्रिकल सामान</p>
-        <h2 class="section-title">CPL स्विच और बोर्ड</h2>
-        <p class="section-sub">STAR HARDWARE पर CPL कंपनी के स्विच, स्विच-बोर्ड, सॉकेट और इलेक्ट्रिकल एक्सेसरीज़ की उपलब्धता के लिए संपर्क करें।</p>
-        <div class="dolphin-panel">
-          <img src="https://www.cplswitches.com/pimages/pa.jpg" alt="CPL Passion switch and socket products from the official CPL website" loading="lazy">
-          <div>
-            <span class="dolphin-tag">CPL • SWITCHES & BOARDS</span>
-            <h3>CPL ELECTRICAL SWITCHES</h3>
-            <p>स्विच, सॉकेट, स्विच-बोर्ड और अन्य इलेक्ट्रिकल एक्सेसरीज़ के लिए दुकान पर उपलब्धता पूछें।</p>
-            <a class="btn" href="https://www.cplswitches.com/products.html" target="_blank" rel="noopener noreferrer">CPL के प्रोडक्ट देखें ↗</a>
+        <p class="section-kicker">प्रीमियम इलेक्ट्रिकल रेंज</p>
+        <h2 class="section-title">CPL SWITCHES, SOCKETS & BOARDS</h2>
+        <p class="section-sub">CPL कंपनी की स्विच और सॉकेट रेंज — शानदार फिनिश, साफ़ डिस्प्ले और प्रीमियम लुक के साथ।</p>
+        <div class="cpl-hero-panel">
+          <div class="cpl-photo-grid">
+            <a href="https://www.cplswitches.com/lightswitch.html" target="_blank" rel="noopener noreferrer">
+              <img src="https://www.cplswitches.com/pimages/pa.jpg" alt="CPL Passion switches official product image" loading="lazy">
+              <span>CPL SWITCHES</span>
+            </a>
+            <a href="https://www.cplswitches.com/socket.html" target="_blank" rel="noopener noreferrer">
+              <img src="https://www.cplswitches.com/pimages/so.jpg" alt="CPL sockets official product image" loading="lazy">
+              <span>CPL SOCKETS</span>
+            </a>
+            <a href="https://www.cplswitches.com/combination.html" target="_blank" rel="noopener noreferrer">
+              <img src="https://www.cplswitches.com/pimages/co.jpg" alt="CPL switch and socket combination plate official product image" loading="lazy">
+              <span>CPL COMBINATION BOARDS</span>
+            </a>
+          </div>
+          <div class="cpl-copy">
+            <span class="dolphin-tag">OFFICIAL CPL PRODUCT RANGE</span>
+            <h3>एक ही कंपनी — CPL</h3>
+            <p>स्विच, सॉकेट और कॉम्बिनेशन बोर्ड के लिए CPL की आधिकारिक प्रोडक्ट रेंज देखें। वायर के लिए भी दुकान पर CPL ब्रांड की उपलब्धता पूछें।</p>
+            <a class="btn gold" href="https://www.cplswitches.com/products.html" target="_blank" rel="noopener noreferrer">CPL के सभी प्रोडक्ट देखें ↗</a>
           </div>
         </div>
       </div>
