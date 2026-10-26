@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rehanansari63577-ops.github.io/star-hardware-website/sitemap.xml
