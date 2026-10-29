@@ -218,6 +218,34 @@
     }
     @media(prefers-reduced-motion:reduce){.gold-shine,.brand.gold-shine span{animation:none;background-position:center}}
 
+  
+    /* Owner Ehsan Ahmad: animated orange shine; CEO Rehan Ahmad: animated teal shine */
+    .people .person:first-child h2{
+      background:linear-gradient(110deg,#b45309 0%,#b45309 28%,#ffe0a8 42%,#ffffff 48%,#b45309 58%,#b45309 100%);
+      background-size:250% 100%;
+      background-position:150% center;
+      -webkit-background-clip:text;
+      background-clip:text;
+      -webkit-text-fill-color:transparent;
+      animation:ownerOrangeShine 2.2s linear infinite;
+      filter:drop-shadow(0 0 3px rgba(180,83,9,.45));
+    }
+    .people .person+.person h2{
+      background:linear-gradient(110deg,#087f8c 0%,#087f8c 28%,#b8fff6 42%,#ffffff 48%,#087f8c 58%,#087f8c 100%);
+      background-size:250% 100%;
+      background-position:150% center;
+      -webkit-background-clip:text;
+      background-clip:text;
+      -webkit-text-fill-color:transparent;
+      animation:ceoTealShine 2.2s linear infinite;
+      filter:drop-shadow(0 0 3px rgba(8,127,140,.45));
+    }
+    @keyframes ownerOrangeShine{from{background-position:150% center}to{background-position:-150% center}}
+    @keyframes ceoTealShine{from{background-position:150% center}to{background-position:-150% center}}
+    @media(prefers-reduced-motion:reduce){
+      .people .person:first-child h2,.people .person+.person h2{animation:none;background-position:center}
+    }
+
   </style>
 </head>
 <body>
