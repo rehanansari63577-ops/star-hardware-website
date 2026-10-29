@@ -189,12 +189,30 @@
     footer{background:#041126;border-top:4px solid #ffd21f}
     @media(max-width:650px){section.content-section{padding-top:52px;padding-bottom:52px}.hero{padding-top:46px;padding-bottom:46px}.visual-card{transform:none}}
 
+  
+    /* GOLDEN WORLD-style moving shine for STAR HARDWARE */
+    .gold-shine{
+      background:linear-gradient(100deg,#9b6b00 0%,#ffd21f 18%,#fff8c2 32%,#ffffff 42%,#ffd21f 55%,#b8860b 72%,#fff2a0 86%,#9b6b00 100%);
+      background-size:300% auto;
+      -webkit-background-clip:text;
+      background-clip:text;
+      color:transparent !important;
+      -webkit-text-fill-color:transparent;
+      animation:starHardwareGoldShine 4s linear infinite;
+      filter:drop-shadow(0 0 8px rgba(255,210,31,.42));
+    }
+    .brand.gold-shine span{color:transparent !important;-webkit-text-fill-color:transparent}
+    @keyframes starHardwareGoldShine{
+      to{background-position:300% center}
+    }
+    @media(prefers-reduced-motion:reduce){.gold-shine{animation:none;background-position:center}}
+
   </style>
 </head>
 <body>
   <header class="site-header">
     <div class="nav-wrap">
-      <a class="brand" href="#home" aria-label="STAR HARDWARE HURLUNG होम">✦ STAR <span>HARDWARE</span></a>
+      <a class="brand gold-shine" href="#home" aria-label="STAR HARDWARE HURLUNG होम">✦ STAR <span>HARDWARE</span></a>
       <nav aria-label="मुख्य मेन्यू">
         <a href="#home">होम</a><a href="#products">हमारा सामान</a><a href="#dolphin-swr">DOLPHIN SWR</a><a href="#ashirvad-swr">ASHIRVAD SWR</a><a href="#cpl-switches">CPL SWITCHES</a><a href="#about">हमारे बारे में</a><a href="#contact">संपर्क</a>
         <a href="https://www.instagram.com/star_hardware_hurlung_/" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
@@ -207,7 +225,7 @@
       <div class="hero-inner">
         <div>
           <span class="eyebrow">✦ HURLUNG, BOKARO की अपनी दुकान</span>
-          <h1>STAR HARDWARE HURLUNG</h1>
+          <h1 class="gold-shine">STAR HARDWARE HURLUNG</h1>
           <p class="hero-welcome">आपका स्वागत है!</p>
           <p class="hero-copy">वायरिंग, प्लंबिंग और फिटिंग के सामान के साथ-साथ मोटर और पंखे की रिपेयरिंग के लिए संपर्क करें। ब्रेकर मशीन, ड्रिल मशीन और हैमर किराये पर लेने के लिए भी हमसे संपर्क करें। आपकी ज़रूरत के अनुसार सही सामान और सेवा के लिए STAR HARDWARE HURLUNG पर आपका स्वागत है।</p>
           <div class="actions"><a class="btn" href="#products">🧰 हमारा सामान देखें</a><a class="btn light" href="#contact">📍 दुकान का पता</a></div>
@@ -345,7 +363,7 @@
 
         <div class="bottom-showcase">
           <p class="section-kicker">हमारी दुकान की पहचान</p>
-          <h2 class="section-title">STAR HARDWARE HURLUNG</h2>
+          <h2 class="section-title gold-shine">STAR HARDWARE HURLUNG</h2>
           <p class="section-sub">Hurlung, Panchayat Bhawan के सामने — Bokaro</p>
           <img src="Star%20Hardware%20Shopfront%2C%20Bokaro.png?v=3" alt="STAR HARDWARE HURLUNG का HD फ्रंट बैनर कार्ड">
         </div>
