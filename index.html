@@ -190,22 +190,33 @@
     @media(max-width:650px){section.content-section{padding-top:52px;padding-bottom:52px}.hero{padding-top:46px;padding-bottom:46px}.visual-card{transform:none}}
 
   
-    /* GOLDEN WORLD-style moving shine for STAR HARDWARE */
+    /* Strong, clearly visible moving gold shine */
     .gold-shine{
-      background:linear-gradient(100deg,#9b6b00 0%,#ffd21f 18%,#fff8c2 32%,#ffffff 42%,#ffd21f 55%,#b8860b 72%,#fff2a0 86%,#9b6b00 100%);
-      background-size:300% auto;
+      display:inline-block;
+      color:#ffd21f !important;
+      background:linear-gradient(110deg,#704500 0%,#c28b00 14%,#fff3a0 25%,#ffffff 32%,#ffbf00 40%,#704500 49%,#ffe66b 62%,#ffffff 70%,#a66b00 83%,#704500 100%);
+      background-size:250% 100%;
+      background-position:150% center;
       -webkit-background-clip:text;
       background-clip:text;
-      color:transparent !important;
       -webkit-text-fill-color:transparent;
-      animation:starHardwareGoldShine 4s linear infinite;
-      filter:drop-shadow(0 0 8px rgba(255,210,31,.42));
+      animation:starHardwareGoldShine 2.2s linear infinite;
+      filter:drop-shadow(0 0 5px rgba(255,190,0,.75));
     }
-    .brand.gold-shine span{color:transparent !important;-webkit-text-fill-color:transparent}
+    .brand.gold-shine span{
+      color:#ffd21f !important;
+      background:linear-gradient(110deg,#704500 0%,#c28b00 14%,#fff3a0 25%,#ffffff 32%,#ffbf00 40%,#704500 49%,#ffe66b 62%,#ffffff 70%,#a66b00 83%,#704500 100%);
+      background-size:250% 100%;
+      -webkit-background-clip:text;
+      background-clip:text;
+      -webkit-text-fill-color:transparent;
+      animation:starHardwareGoldShine 2.2s linear infinite;
+    }
     @keyframes starHardwareGoldShine{
-      to{background-position:300% center}
+      from{background-position:150% center}
+      to{background-position:-150% center}
     }
-    @media(prefers-reduced-motion:reduce){.gold-shine{animation:none;background-position:center}}
+    @media(prefers-reduced-motion:reduce){.gold-shine,.brand.gold-shine span{animation:none;background-position:center}}
 
   </style>
 </head>
